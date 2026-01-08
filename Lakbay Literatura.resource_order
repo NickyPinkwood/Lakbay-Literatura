@@ -1,10 +1,10 @@
 {
   "FolderOrderSettings":[
     {"name":"dialogue","order":10,"path":"folders/dialogue.yy",},
-    {"name":"Scripts","order":11,"path":"folders/Scripts.yy",},
     {"name":"menu","order":6,"path":"folders/menu.yy",},
     {"name":"obj","order":7,"path":"folders/obj.yy",},
     {"name":"Rooms","order":1,"path":"folders/Rooms.yy",},
+    {"name":"Scripts","order":11,"path":"folders/Scripts.yy",},
     {"name":"Sprites","order":2,"path":"folders/Sprites.yy",},
     {"name":"Turn Based Battle","order":17,"path":"folders/Sprites/Turn Based Battle.yy",},
   ],
@@ -50,6 +50,7 @@
     {"name":"spr_talk","order":8,"path":"sprites/spr_talk/spr_talk.yy",},
     {"name":"spr_tileset","order":7,"path":"sprites/spr_tileset/spr_tileset.yy",},
     {"name":"spr_white","order":18,"path":"sprites/spr_white/spr_white.yy",},
+    {"name":"Sprite26","order":20,"path":"sprites/Sprite26/Sprite26.yy",},
     {"name":"sprTrigger","order":19,"path":"sprites/sprTrigger/sprTrigger.yy",},
     {"name":"TileSet1","order":3,"path":"tilesets/TileSet1/TileSet1.yy",},
     {"name":"TileSet2","order":12,"path":"tilesets/TileSet2/TileSet2.yy",},
