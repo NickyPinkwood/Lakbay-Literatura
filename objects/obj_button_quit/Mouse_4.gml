@@ -1,4 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-room_goto(AreYouSure);
+var target = AreYouSure;
+if (room == AreYouSure) target = AreYouSure;
+    
+TransitionStart(target,fadeOut,fadeIn)

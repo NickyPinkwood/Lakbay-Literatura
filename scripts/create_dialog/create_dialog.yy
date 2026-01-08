@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Transitions",
+  "%Name":"create_dialog",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Transitions",
+  "name":"create_dialog",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

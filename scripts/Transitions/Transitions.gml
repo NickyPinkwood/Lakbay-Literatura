@@ -5,7 +5,7 @@ function TransitionPlaceSequence(_type)
 {
 if (layer_exists("transition")) layer_destroy("transition");
     var _lay = layer_create(-9999, "transition");
-    layer_sequence_create(_lay,0,0,_type);
+    layer_sequence_create(_lay, 0, 0,_type);
 } 
 
 function TransitionStart(_roomTarget, _typeOut, _typeIn)
@@ -29,7 +29,7 @@ function TransitionChangeRoom()
 }
     
     function TransitionFinished()
-{
-    layer_sequence_destroy(self.elementID);
-    global.midTransition = false;
-}
+    {
+      layer_sequence_destroy(self.elementID);
+      global.midTransition = false;
+    }

@@ -1,3 +1,7 @@
 // Inherit the parent event
 event_inherited();
-room_goto(Help);
+
+var target = Help;
+if (room == Help) target = Help;
+    
+TransitionStart(target,fadeOut,fadeIn)

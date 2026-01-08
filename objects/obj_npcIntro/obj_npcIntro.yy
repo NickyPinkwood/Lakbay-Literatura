@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"npcIntro",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_npcIntro",
+  "eventList":[],
   "managed":true,
-  "name":"npcIntro",
-  "overriddenProperties":[],
+  "name":"obj_npcIntro",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"dialog","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.demoWelcome",},
+  ],
   "parent":{
-    "name":"Lakbay Literatura",
-    "path":"Lakbay Literatura.yyp",
+    "name":"obj",
+    "path":"folders/obj.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_npc_parent",
+    "path":"objects/obj_npc_parent/obj_npc_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

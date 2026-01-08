@@ -1,4 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-room_goto_previous();
+var target = MainMenu;
+if (room == MainMenu) target = MainMenu;
+    
+TransitionStart(target,fadeOut,fadeIn)
