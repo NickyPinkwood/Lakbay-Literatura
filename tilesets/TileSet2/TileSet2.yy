@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Sprite25",
-    "path":"sprites/Sprite25/Sprite25.yy",
+    "name":"sprTrigger",
+    "path":"sprites/sprTrigger/sprTrigger.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

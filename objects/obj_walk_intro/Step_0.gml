@@ -1,13 +1,7 @@
-if (instance_exists(dialogueLogic)) exit;
-    
-if (instance_exists(player) && distance_to_object(player) < 2)
+if (instance_exists(player) && distance_to_object(player) < 1)
 {
-    can_talk = true;
-    if (instance_exists(player))
-    {
-        create_dialog(dialog);
-    }
-    else {
-    	can_talk = false;
-    }
+    var target = TestMap;
+    if (room == TestMap) target = TestMap;
+    
+    TransitionStart(target,fadeOut,fadeIn);
 }

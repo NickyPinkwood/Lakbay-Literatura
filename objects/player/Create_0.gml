@@ -1,5 +1,5 @@
-move_speed = 1;
+move_speed = 1.4;
 
 tilemap = layer_tilemap_get_id("tilesCol");
 
-input_key = vk_shift;
+input_key = vk_lshift;

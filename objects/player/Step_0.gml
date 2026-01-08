@@ -3,9 +3,10 @@ if (instance_exists(dialogueLogic)) exit;
 var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
-var _spr = keyboard_check(vk_lshift);
+var _spr = keyboard_check(input_key);
 
-move_and_collide(_hor * move_speed, _ver * move_speed, tilemap, undefined, undefined, move_speed, move_speed);
+
+move_and_collide(_hor * move_speed, _ver * move_speed, tilemap, undefined, undefined, move_speed, move_speed,);
 
 if (_hor != 0 or _ver != 0)
 {
@@ -27,10 +28,9 @@ else
 
 if (_spr)
 {
-    move_speed = 1.4;
+    move_speed = 1.8;
 }
-
 else
 {
-    move_speed = 1;    
+    move_speed = 1.4
 }

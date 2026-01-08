@@ -1,1 +1,1 @@
-can_talk = false;
+walk_trigger = false;
