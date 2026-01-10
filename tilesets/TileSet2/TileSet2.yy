@@ -8,7 +8,7 @@
     "TileSerialiseData":[],
   },
   "name":"TileSet2",
-  "out_columns":4,
+  "out_columns":69,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"sprTrigger",
-    "path":"sprites/sprTrigger/sprTrigger.yy",
+    "name":"spr_trees",
+    "path":"sprites/spr_trees/spr_trees.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":16,
+  "tile_count":4800,
 }
